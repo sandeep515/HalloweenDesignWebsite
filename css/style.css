@@ -3,7 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 :root{
-    --main-color:#ef7819;
+    --main-color:#88fc03;
     --black:#141215;
 }
 
@@ -87,7 +87,7 @@ section{
 
 .header .logo{
     font-size: 3rem;
-    color:#fff;
+    color:var(--main-color);
     font-weight: bolder;
 }
 
@@ -120,7 +120,7 @@ section{
 
 .header .icons a,
 .header .icons div{
-    font-size: 3.5rem;
+    font-size: 3rem;
     color:#fff;
     margin-left: 2rem;
     cursor: pointer;
